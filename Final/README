@@ -1,0 +1,25 @@
+1.for compile:
+>> make
+
+2.run simple test:
+>> make test
+
+
+3.To change search window size, modify augment.cpp:line29
+
+4.If set window = 8, then window size is 7.
+
+simple:
+	simple test case.
+
+superblue18:
+	big test case.
+
+/////////////////////////////////////////
+Flute: 
+	source code for routing.
+includes:
+	source code for timer.
+libs:
+	.a for timer.
+

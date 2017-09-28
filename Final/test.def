@@ -1,0 +1,19 @@
+VERSION 5.7 ;
+DESIGN simple ;
+
+COMPONENTS 6 ;
+   - u1 NAND2_X1
+      + PLACED ( 3800 6840 ) N N 
+   - u2 NOR2_X1
+      + PLACED ( 0 6840 ) N N 
+   - f1 DFF_X80
+      + FIXED ( 684 0 ) N N 
+   - u3 INV_X1
+      + PLACED ( 11780 3420 ) N N 
+   - u4 INV_X1
+      + PLACED ( 12160 6840 ) N N 
+   - lcb1 INV_Z80
+      + PLACED ( 0 10260 ) N N 
+END COMPONENTS
+
+END DESIGN
